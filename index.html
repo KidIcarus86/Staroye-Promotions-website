@@ -19,29 +19,12 @@
 	margin-top: 0;
 	}
 .mainheader {
-	margin-left: 250px;
-	width: 680px;
 	text-align: center;
-	border-width: 5px;
-	border-style: dotted;
-	border-color: rgb(0, 0, 0);
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
+	width: 680px;
+	float: right;
+	
 	}
-.links {
-	width: 300px;
-	font-size: 35px;
-	margin-left: 420px;
-	border-width: 5px;
-	border-style: dotted;
-	border-color: red;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: px;
-	padding-right: 20px;
-	}
+
 .top {
     font-family: arial;
 	font-weight: bold;
@@ -86,6 +69,7 @@
 	
 	}
 .body {
+	margin: 0px;
 	font-size: 20px;
     background-image: url(ctapoesunset.png);
 	background-repeat: no-repeat;
@@ -97,12 +81,41 @@
 	
 	font-family:'Courier New', Courier, monospace
 	}
+.links ul{
+	list-style-type: none;
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	}
+.links a{
+	color: rgb(255, 0, 0);
+		text-decoration: none;
+		padding: 15px;
+		display: block;
+		text-align: center;
+		font-size: 30px;
+	}
+.links a:hover{
+		background-color: blue;
+	}
+.links li{
+	float: left;
+}
 </style>
 </head>
 <!--  ...................................................................................................   -->
 <body class="body">
 <!--     <p><audio src="soup audio.mp3" controls type="audio/mp3"></audio></p>     -->
 <!--     <p><video src="soup video.mp4" controls type="video/mp4" width="450"></video></p>     -->
+<nav class="links">
+	<ul>
+	  <li><a href="Competetors.html">| Competetors |</a></li>
+		<li><a href="Event Dates.html">| Event Dates |</a></li>
+		<li><a href="Top Ten Fighter Ranks.html">| Top10Fighters |</a></li>
+	</ul>
+  </nav>
+<!--	<a href="interviews.html">Fighter interviews.</a>     -->
 <h1 class="header1">
 	<p class="mainheader">
 	    Staroye Promotions Official DayZ Boxing League
@@ -180,14 +193,7 @@
 	</p>
 </section>
 <section>
-  	<p class="links">
-		&#183;<a href="Competetors.html">Competetors.</a>
-	  <br>
-		&#183;<a href="Event Dates.html">Event Dates.</a>
-	  <br>
-		&#183;<a href="Top Ten Fighter Ranks.html">Top10Fighters.</a>
-	</p>
-<!--	<a href="interviews.html">Fighter interviews.</a>     -->
+	
 </section>
 <section>
 	<p class="arenatext">

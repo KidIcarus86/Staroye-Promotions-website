@@ -14,19 +14,27 @@
 	padding-right: 20px;
 	width: 1000px;
 	}
-.links {
-	width: 320px;
-	font-size: 40px;
-	margin-left: 420px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: red;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	
+	.links ul{
+	list-style-type: none;
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
 	}
+.links a{
+	color: rgb(255, 0, 0);
+		text-decoration: none;
+		padding: 15px;
+		display: block;
+		text-align: center;
+		font-size: 30px;
+	}
+.links a:hover{
+		background-color: blue;
+	}
+.links li{
+	float: left;
+}
 .souplogodayz {
 	width: 200px;
 	border-width: 5px;
@@ -35,6 +43,7 @@
 	margin-left: 950px;
 	} 
 .body {
+	margin: 0px;
 	
 	background-image: url(faceoff.png);
 	background-repeat: no-repeat;
@@ -52,14 +61,12 @@
 </head>
 	<body class="body">
 		<nav class="links">
-		
-				&#183;<a href="index.html">Home</a>
-			<br>
-				&#183;<a href="Competetors.html">Competetors.</a>
-			<br>
-				&#183;<a href="Event Dates.html">Event Dates.</a>
-		
-	</nav>
+			<ul>
+			  <li><a href="Competetors.html">| Competetors |</a></li>
+				<li><a href="Event Dates.html">| Event Dates |</a></li>
+				<li><a href="index.html">| Home |</a></li>
+			</ul>
+		  </nav>
 <p>
 <table class="rank_table">
 <tr>

@@ -5,18 +5,27 @@
 			Event Dates
 		</title>
 <style>
-.links {
-	width: 320px;
-	font-size: 35px;
-	margin-left: 420px;
-	border-width: 5px;
-	border-style: dotted;
-	border-color: red;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+.links ul{
+	list-style-type: none;
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
 	}
+.links a{
+	color: rgb(255, 0, 0);
+		text-decoration: none;
+		padding: 15px;
+		display: block;
+		text-align: center;
+		font-size: 30px;
+	}
+.links a:hover{
+		background-color: blue;
+	}
+.links li{
+	float: left;
+}
 .souplogodayz {
 	width: 200px;
 	border-width: 5px;
@@ -47,13 +56,13 @@
 </style>
 </head>
 	<body class="body">
-		<p class="links">
-			&#183;<a href="index.html">Home</a>
-		<br>
-			&#183;<a href="Top Ten Fighter Ranks.html">Top10Fighters.</a>
-		<br>
-			&#183;<a href="Competetors.html">Competetors.</a>
-		</p>
+		<nav class="links">
+			<ul>
+			  <li><a href="Competetors.html">| Competetors |</a></li>
+				<li><a href="index.html">| Home |</a></li>
+				<li><a href="Top Ten Fighter Ranks.html">| Top10Fighters |</a></li>
+			</ul>
+		  </nav>
 		<p>
 	<table class="event_table">
 <tr>
