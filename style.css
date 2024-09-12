@@ -1,0 +1,206 @@
+
+
+#body {
+
+background-color: rgb(39, 26, 44)
+
+}
+
+
+#title{
+    
+
+    color: gold;
+    font-size: 65px;
+    text-align: center;
+    text-shadow: 5px 5px 10px  rgb(255, 1, 1), -5px -5px 10px  rgb(9, 1, 255);
+}
+
+
+
+
+
+
+
+
+
+
+#discord{
+    background-image: url(soupwantsyou.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size:cover;
+    background-color: darkgrey;
+    width: 100%;
+    text-align:center;
+    
+    border-radius: 25px;
+    padding-top: 500px;
+    padding-bottom: 5px;
+
+    margin-bottom: 10px;
+
+}
+
+.youtubebutton{
+    background-color: rgb(202, 0, 0);
+    font-size: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 50%;
+
+}
+
+
+
+
+.joinbutton{
+    background-color: rgb(202, 0, 0);
+    font-size: 50px;
+    border-radius: 25px;
+    
+    padding: 10px;
+    margin-left: 50%;
+    margin-bottom: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+#abouttitle{
+    color: gold;
+text-align: center;
+font-size: 100px;
+    }
+
+#aboutus{
+    background-color: rgb(186, 134, 70);
+padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(4, 0, 255);
+}
+.top{
+	text-align: center;
+font-family: arial;
+font-weight: bold;
+font-size: 35px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#top10title{
+
+    color: gold;
+text-align: center;
+font-size: 100px;
+    }
+    
+    #Top10Fighters{
+        background-color:rgb(4, 0, 255);
+        border-radius: 25px;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 50px;
+        position: relative;
+padding-top: 10px;
+
+color: rgb(186, 134, 70);
+
+    }
+
+.toptenlist{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+.imagegallary{
+color: gold;
+text-align: center;
+font-size: 100px;
+}
+
+
+
+
+
+    #photoblock{
+        background-color: rgb(190, 190, 190);
+        border-radius: 25px;
+    }
+
+
+
+
+
+    .slider{
+        position: relative;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .slider img{
+        width: 100%;
+        display: none;
+    }
+    img.displaySlide{
+        display: block;
+        animation-name: fade;
+        animation-duration: 1.5s;
+        border-radius: 25px;
+    }
+    .slider button{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 2rem;
+        padding: 10px 15px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .previous{
+        left: 0;
+    }
+    .next{
+        right: 0;
+    }
+    @keyframes fade {
+        from {opacity: .5;}
+        to {opacity: 1;}
+    }
+    .footer{
+        color: gold;
+        padding-top: 100px;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    .souplogodayz{
+        width: 200px;
+        
+        padding-top: 20px;
+        
+        }
