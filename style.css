@@ -25,19 +25,26 @@ background-color: rgb(39, 26, 44)
 
 
 
-#discord{
+.discord{
+
+
+
+
     background-image: url(soupwantsyou.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:contain;
+    
+    height: 50em;
+
+    
     background-color: darkgrey;
-    width: 100%;
-    text-align:center;
+    
     
     border-radius: 25px;
-    padding-top: 500px;
-    padding-bottom: 5px;
+    
+    
 
     margin-bottom: 10px;
 
@@ -47,9 +54,8 @@ background-color: rgb(39, 26, 44)
     background-color: rgb(202, 0, 0);
     font-size: 50px;
     border-radius: 25px;
-    padding: 10px;
-    margin-left: 50%;
-
+    float: left;
+   
 }
 
 
@@ -60,9 +66,9 @@ background-color: rgb(39, 26, 44)
     font-size: 50px;
     border-radius: 25px;
     
-    padding: 10px;
+    float:right;
     margin-left: 50%;
-    margin-bottom: 25%;
+    
 }
 
 
